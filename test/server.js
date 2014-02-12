@@ -1424,7 +1424,7 @@ describe('server', function () {
         function finish () {
           setTimeout(function () {
             socket.close();
-          }, 10);
+          }, 100);
         }
 
         // server
